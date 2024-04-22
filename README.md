@@ -13,7 +13,7 @@ In this program, I've implemented a bucket sort algorithm, which uses insertion 
 3. **Merging Buckets**: Finally, the sorted contents of each bucket are concatenated back into the original array, yielding a fully sorted sequence. 
 
 This approach leverages the efficiency of insertion sort on smaller, manageable lists and the distribution capability of bucket sort for handling larger datasets, demonstrating a significant improvement in sorting performance especially for diversified data distributions.
-- [BucketInsertionSort.cpp](/BucketInsertionSort.cpp)
+- [BucketInsertionSort.cpp](/Source.cpp))
 
 ### Question 2: Implementing Dijkstra's Algorithm Using a Min-Priority Queue
 The second program is an implementation of Dijkstra's algorithm for finding the shortest path from a single source node to all other nodes in a weighted graph.
@@ -27,7 +27,7 @@ The second program is an implementation of Dijkstra's algorithm for finding the 
 4. **Results**: The final output lists all vertices and their minimum distance from the source, providing a comprehensive view of the shortest paths from the source to every other vertex in the graph.
 
 This implementation is a classic example of how Dijkstra’s algorithm efficiently calculates shortest paths in a weighted graph, making it an indispensable tool in computer science.
-- [DijkstrasAlgorithm.cpp](/DijkstrasAlgorithm.cpp)
+- [DijkstrasAlgorithm.cpp](/Source1.cpp)
 
 ### Question 3: Longest Increasing Subsequence (LIS)
 The third program solves the Longest Increasing Subsequence problem using a dynamic programming approach. It includes detailed comments explaining the base case and recursive case of the algorithm.
@@ -44,7 +44,7 @@ The third program solves the Longest Increasing Subsequence problem using a dyna
 
 This implementation not only calculates the length of the LIS but also provides foundational knowledge on how dynamic programming can be used to solve complex problems efficiently by breaking them down into simpler subproblems.
 
-- [LongestIncreasingSubsequence.cpp](/LongestIncreasingSubsequence.cpp)
+- [LongestIncreasingSubsequence.cpp](/Source2.cpp)
 
 ## Building and Running
 
